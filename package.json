@@ -1,0 +1,30 @@
+{
+  "name": "api-petshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+	"test": "./node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.5.1"
+  }
+}
