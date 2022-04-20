@@ -1,5 +1,6 @@
 {
     "mysql": {
+		"banco-de-dados": "PETSHOP_MYSQL_DB",
         "usuario": "PETSHOP_MYSQL_USER",
         "senha": "PETSHOP_MYSQL_PASS",
         "host": "PETSHOP_MYSQL_HOST"
@@ -8,3 +9,4 @@
         "porta": "PETSHOP_PORT_API"
     }
 }
+
